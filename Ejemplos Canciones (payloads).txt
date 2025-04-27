@@ -1,0 +1,47 @@
+# Ejemplo 1: Taylor Swift - Pop
+
+{
+  "track_id": "6habFhsOp2NvshLv26DqMb",
+  "artists": "Taylor Swift",
+  "album_name": "1989",
+  "track_name": "Blank Space",
+  "duration_ms": 231000,
+  "explicit": false,
+  "danceability": 0.65,
+  "energy": 0.75,
+  "key": 0,
+  "loudness": -5.0,
+  "mode": 1,
+  "speechiness": 0.04,
+  "acousticness": 0.12,
+  "instrumentalness": 0.00001,
+  "liveness": 0.08,
+  "valence": 0.7,
+  "tempo": 96.0,
+  "time_signature": 4,
+  "track_genre": "pop"
+}
+
+# Ejemplo 2: Dua Lipa - Pop
+
+{
+  "track_id": "7yCPwWs66K8Ba5lFuU2bcx",
+  "artists": "Dua Lipa",
+  "album_name": "Future Nostalgia",
+  "track_name": "Levitating",
+  "duration_ms": 203064,
+  "explicit": false,
+  "danceability": 0.79,
+  "energy": 0.68,
+  "key": 6,
+  "loudness": -5.2,
+  "mode": 1,
+  "speechiness": 0.05,
+  "acousticness": 0.02,
+  "instrumentalness": 0.0,
+  "liveness": 0.1,
+  "valence": 0.84,
+  "tempo": 103.0,
+  "time_signature": 4,
+  "track_genre": "pop"
+}
