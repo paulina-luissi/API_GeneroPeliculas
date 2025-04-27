@@ -11,7 +11,6 @@ model = joblib.load("model/lgbm_simple_model.pkl")
 def preprocess_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     Preprocesamiento de las características de entrada.
-
     """
     # 1. Drop columns not needed for prediction
     columns_to_drop = ['track_id', 'track_name', 'explicit', 'time_signature', 'key', 'mode']
@@ -22,17 +21,14 @@ def preprocess_features(df: pd.DataFrame) -> pd.DataFrame:
     for col in cat_cols:
         if col in df.columns:
             df[col] = df[col].astype('category')
-
     return df
     
 
 def predict_popularity(raw_features: dict) -> float:
     """
     Predice la popularidad de una canción utilizando el modelo cargado.
-
     Args:
         raw_features (dict): Input data como diccionario
-
     Returns:
         float:  popularity score
     """
@@ -43,16 +39,10 @@ def predict_popularity(raw_features: dict) -> float:
     # Preprocess the input
     processed_df = preprocess_features(df)
 
-     # Fix column order
-    #expected_features = model.get_booster().feature_names
-    #processed_df = processed_df[expected_features]
-
     # Predict
     prediction = model.predict(processed_df)
 
     return float(prediction[0])
-
-
 
 if __name__ == "__main__":
     import sys
