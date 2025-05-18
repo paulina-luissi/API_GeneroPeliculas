@@ -1,0 +1,15 @@
+# Ejemplo 1 - How to Be a Serial Killer:'Comedy', 'Crime', 'Horror'
+
+{
+  "year": "2008",
+  "title": "How to Be a Serial Killer",
+  "plot": "a serial killer decides to teach the secrets of his satisfying career to a video store clerk .",
+}
+
+# Ejemplo 2 - Narrow Margin: 'Action', 'Crime', 'Thriller'
+
+{
+  "year": "1990",
+  "title": "Narrow Margin",
+  "plot": "in los angeles ,  the editor of a publishing house carol hunnicut goes to a blind date with the lawyer michael tarlow ,  who has embezzled the powerful mobster leo watts .  carol accidentally witnesses the murder of michel by leo ' s hitman .  the scared carol sneaks out of michael ' s room and hides in an isolated cabin in canada .  meanwhile the deputy district attorney robert caulfield and sgt .  dominick benti discover that carol is a witness of the murder and they report the information to caulfield ' s chief martin larner and they head by helicopter to canada to convince carol to testify against leo .  however they are followed and the pilot and benti are murdered by the mafia .  caulfield and carol flees and they take a train to vancouver .  caulfield hides carol in his cabin and he discloses that there are three hitman in the train trying to find carol and kill her .  but they do not know her and caulfield does not know who might be the third killer from the mafia and who has betrayed him in his office .",
+}
