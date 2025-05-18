@@ -35,7 +35,7 @@ genre_prob_model = api.model('GenreProbs', {
 @ns.route('/')
 class GenrePrediction(Resource):
     @api.expect(input_model)
-    @api.marshal_with(response_model)
+    @api.marshal_with(genre_prob_model)
     def post(self):
         raw_features = api.payload
         result = predict_genre(raw_features)
